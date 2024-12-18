@@ -1,3 +1,5 @@
+Test
+
 # Fully-Fledged Hardhat Project Template Based on TypeScript
 
 [![🕵️‍♂️ Test smart contracts](https://github.com/blokk-studio/hardhat-project-template-ts/actions/workflows/test-contracts.yml/badge.svg)](https://github.com/blokk-studio/hardhat-project-template-ts/actions/workflows/test-contracts.yml)
