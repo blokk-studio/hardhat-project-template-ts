@@ -1,6 +1,6 @@
 name: 🕵️‍♂️ Test smart contracts
 
-on: [push, pull_request, pull_request_target, workflow_dispatch]
+on: [push, pull_request, workflow_dispatch]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -147,7 +147,7 @@ jobs:
         run: lcov --branch-coverage --remove lcov.info 'test/*' 'script/*' 'node_modules/*' --output-file lcov.info
 
       - name: Post coverage report
-        if: ${{ (github.event.pull_request.head.repo.full_name == github.repository && github.event_name == 'pull_request') || (github.event.pull_request.head.repo.full_name != github.repository && github.event_name == 'pull_request_target') }}
+        if: ${{ (github.event.pull_request.head.repo.full_name == github.repository && github.event_name == 'pull_request') }}
         uses: romeovs/lcov-reporter-action@v0.4.0
         with:
           title: "Test Coverage Report"
