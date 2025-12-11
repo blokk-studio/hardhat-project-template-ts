@@ -102,8 +102,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0(prettier@3.7.4)
       slippy:
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       solidity-coverage:
         specifier: ^0.8.17
         version: 0.8.17(hardhat@2.27.2(bufferutil@4.0.9)(ts-node@10.9.2(@types/node@24.10.3)(typescript@5.9.3))(typescript@5.9.3)(utf-8-validate@5.0.10))
@@ -157,8 +157,8 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-lambda@3.948.0':
-    resolution: {integrity: sha512-m0DeCanUYLmR9LOVv5mRmmOvk+UwWq1WnzJg5+ZsBt/jP8ohkrh/AnRdas3psjHs9Gn3YHLnBmibiPDht+JuoQ==}
+  '@aws-sdk/client-lambda@3.950.0':
+    resolution: {integrity: sha512-4Sqxci8y2ltSfPz/hClpKaUeY8uSM+WrZvzH2EPBDX0b3TecozoPu5zXJ/Jb0TEbm5lRWmtYoIB+QG2Wvkti9g==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-sso@3.948.0':
@@ -272,6 +272,9 @@ packages:
 
   '@bytecodealliance/preview2-shim@0.17.2':
     resolution: {integrity: sha512-mNm/lblgES8UkVle8rGImXOz4TtL3eU3inHay/7TVchkKrb/lgcVvTK0+VAw8p5zQ0rgQsXm1j5dOlAAd+MeoA==}
+
+  '@bytecodealliance/preview2-shim@0.17.5':
+    resolution: {integrity: sha512-F4WYVC6aHOiOXSsG3WDGFALrkpb952+9/EIX119qIzDtYgE5tvbOnKeBb0Y+NMzGEsu3334GdHIRXQ6wibY0MA==}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -437,8 +440,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@grpc/grpc-js@1.14.2':
-    resolution: {integrity: sha512-QzVUtEFyu05UNx2xr0fCQmStUO17uVQhGNowtxs00IgTZT6/W2PBLfUkj30s0FKJ29VtTa3ArVNIhNP6akQhqA==}
+  '@grpc/grpc-js@1.14.3':
+    resolution: {integrity: sha512-Iq8QQQ/7X3Sac15oB6p0FmUg/klxQvXLeileoqrTRGJYLV+/9tubbr9ipz0GKHjmXVsgFPo/+W+2cA8eNcR+XA==}
     engines: {node: '>=12.10.0'}
 
   '@grpc/proto-loader@0.7.15':
@@ -698,6 +701,9 @@ packages:
 
   '@nomicfoundation/slang@1.3.0':
     resolution: {integrity: sha512-2PcwCF5cX2UjGi9cHd7E6XtLDaoyEVOTYt8WtOJ7GVpa68b+/sX0uFkb5/S67vxJb8eaVVFd2u6MTSVmE84QsQ==}
+
+  '@nomicfoundation/slang@1.3.1':
+    resolution: {integrity: sha512-gh0+JDjazmevEYCcwVgtuyfBJcV1209gIORZNRjUxbGzbQN0MOhQO9T0ptkzHKCf854gUy27SMxPbAyAu63fvQ==}
 
   '@nomicfoundation/solidity-analyzer-darwin-arm64@0.1.2':
     resolution: {integrity: sha512-JaqcWPDZENCvm++lFFGjrDd8mxtf+CtLd2MiXvMNTBD33dContTZ9TWETwNFwg7JTJT5Q9HEecH7FA+HTSsIUw==}
@@ -3539,8 +3545,8 @@ packages:
     resolution: {integrity: sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==}
     engines: {node: '>=10'}
 
-  slippy@0.3.0:
-    resolution: {integrity: sha512-OtVm7Xa4iA4UWmYO7f27CAfyp/UBCQKFSIKOOVrD6md9xqKrZpjCZzEg8X+BSeVxn0XYEYvELeLEBoU6+cDOqg==}
+  slippy@0.3.1:
+    resolution: {integrity: sha512-b8TkBhNmWbiDpcMw7vJCd5RxhCNCmWQKL1IOkHd1b6W5cWoI8PtkPhEirm//qZ/5dgdlJQ7ci3p1ksjq1luDqQ==}
     hasBin: true
 
   smart-buffer@4.2.0:
@@ -4146,7 +4152,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-lambda@3.948.0':
+  '@aws-sdk/client-lambda@3.950.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -4502,6 +4508,8 @@ snapshots:
 
   '@bytecodealliance/preview2-shim@0.17.2': {}
 
+  '@bytecodealliance/preview2-shim@0.17.5': {}
+
   '@colors/colors@1.5.0':
     optional: true
 
@@ -4843,7 +4851,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@grpc/grpc-js@1.14.2':
+  '@grpc/grpc-js@1.14.3':
     dependencies:
       '@grpc/proto-loader': 0.8.0
       '@js-sdsl/ordered-map': 4.4.2
@@ -5248,6 +5256,10 @@ snapshots:
     dependencies:
       '@bytecodealliance/preview2-shim': 0.17.2
 
+  '@nomicfoundation/slang@1.3.1':
+    dependencies:
+      '@bytecodealliance/preview2-shim': 0.17.5
+
   '@nomicfoundation/solidity-analyzer-darwin-arm64@0.1.2':
     optional: true
 
@@ -5601,7 +5613,7 @@ snapshots:
 
   '@openzeppelin/defender-sdk-base-client@2.7.0(encoding@0.1.13)':
     dependencies:
-      '@aws-sdk/client-lambda': 3.948.0
+      '@aws-sdk/client-lambda': 3.950.0
       amazon-cognito-identity-js: 6.3.16(encoding@0.1.13)
       async-retry: 1.3.3
     transitivePeerDependencies:
@@ -7036,7 +7048,7 @@ snapshots:
   dockerode@4.0.9:
     dependencies:
       '@balena/dockerignore': 1.0.2
-      '@grpc/grpc-js': 1.14.2
+      '@grpc/grpc-js': 1.14.3
       '@grpc/proto-loader': 0.7.15
       docker-modem: 5.0.6
       protobufjs: 7.5.4
@@ -8759,9 +8771,9 @@ snapshots:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
 
-  slippy@0.3.0:
+  slippy@0.3.1:
     dependencies:
-      '@nomicfoundation/slang': 1.3.0
+      '@nomicfoundation/slang': 1.3.1
       chalk: 5.6.2
       debug: 4.4.3(supports-color@8.1.1)
       fast-glob: 3.3.3
