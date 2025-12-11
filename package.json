@@ -253,7 +253,7 @@
     "hardhat-gas-reporter": "^2.3.0",
     "prettier": "^3.7.4",
     "prettier-plugin-solidity": "^2.2.0",
-    "slippy": "^0.3.0",
+    "slippy": "^0.3.1",
     "solidity-coverage": "^0.8.17",
     "ts-node": "^10.9.2",
     "typechain": "^8.3.2",
