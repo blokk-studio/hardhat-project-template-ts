@@ -76,7 +76,8 @@ const config: HardhatUserConfig = {
     // https://github.com/ethereum/execution-specs/blob/forks/osaka/src/ethereum/forks/prague/__init__.py
     // Only use Solidity default versions `>=0.8.25` for EVM networks that support the new `cancun` opcodes:
     // https://github.com/ethereum/execution-specs/blob/forks/osaka/src/ethereum/forks/cancun/__init__.py
-    // Only use Solidity default versions `>=0.8.20` for EVM networks that support the opcode `PUSH0`
+    // Only use Solidity default versions `>=0.8.20` for EVM networks that support the new `shanghai` opcode `PUSH0`:
+    // https://github.com/ethereum/execution-specs/blob/forks/osaka/src/ethereum/forks/shanghai/__init__.py
     // Otherwise, use the versions `<=0.8.19`
     version: "0.8.31",
     settings: {
