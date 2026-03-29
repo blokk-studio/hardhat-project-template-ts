@@ -26,7 +26,7 @@ jobs:
           submodules: recursive
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v5
         with:
           run_install: false
 
@@ -102,7 +102,7 @@ jobs:
           submodules: recursive
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v5
         with:
           run_install: false
 
@@ -186,3 +186,4 @@ jobs:
           coverage-files: ./lcov.info
           # Please specify here the minimum coverage threshold below which any PR will fail.
           minimum-coverage: 100
+
