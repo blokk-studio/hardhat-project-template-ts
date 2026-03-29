@@ -186,4 +186,3 @@ jobs:
           coverage-files: ./lcov.info
           # Please specify here the minimum coverage threshold below which any PR will fail.
           minimum-coverage: 100
-
