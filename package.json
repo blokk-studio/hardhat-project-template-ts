@@ -21,7 +21,7 @@
   },
   "author": "pcaversaccio",
   "license": "MIT",
-  "packageManager": "pnpm@12.4.0",
+  "packageManager": "pnpm@12.3.4",
   "scripts": {
     "help": "hardhat help",
     "accounts": "hardhat accounts",
